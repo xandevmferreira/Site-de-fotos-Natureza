@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: rgb(102, 238, 102);
 
@@ -27,12 +32,15 @@ body {
 
 
 .cabecalho__imagem {
-    width: 1502px;
-    height: 400px;
+    width: auto;
+    height: 46vh;
 
 }
 
+
 .conteudo {
+    width: auto;
+    height: auto;
     background-color: white;
     margin: 7%;
     text-align: center; 
@@ -40,7 +48,7 @@ body {
 }
 
 .wrapper {
-    width: auto;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,6 +64,7 @@ body {
     -webkit-transform: scale(1.2);
     transform: scale(2);
     transition: 1.8s;
+    
 }
 
 .box2:hover {
@@ -71,3 +80,18 @@ body {
     transform: scale(2);
     transition: 1.8s;
 }
+
+.painel__contato {
+    width: 100%;
+}
+
+.imagem__footer {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: 7% 0 0 0;
+
+}
+
+
+
