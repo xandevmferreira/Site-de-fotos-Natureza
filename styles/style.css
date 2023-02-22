@@ -1,0 +1,31 @@
+.corpo__site {
+    background-color: rgb(130, 243, 130);
+}
+
+.cabecalho {
+    background-color: 
+    padding:   7% 0% 20%;
+}
+
+.cabecalho__menu__link {
+    display: inline-block;
+    font-size: large;
+    font-style: italic;
+    font-weight: 400;
+    justify-content: space-between;
+    align-items:center;
+    padding: 5% 0% 0% 10%;
+    margin: 0 18% 0 0;
+}
+
+.cabecalho__imagem {
+    width: 1500px;
+    height: 400px;
+
+}
+
+.textos {
+    background-color: white;
+    text-align: center;
+    padding-right: 0 15%;
+}
