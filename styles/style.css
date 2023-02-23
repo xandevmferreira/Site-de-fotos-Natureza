@@ -5,14 +5,21 @@
 
 body {
     background-color: rgb(102, 238, 102);
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .cabecalho {
     background-color: white;
-    padding: 1% 0% 0% 0%;
     
+}
 
+.cabecalho__imagem {
+    width: auto;
+    height: 46vh;
+    
 }
 
 .cabecalho__menu {
@@ -28,22 +35,16 @@ body {
     text-decoration-color: black;
     font-size: 1.3rem;
     font-weight: 600;
+    
 }
-
-
-.cabecalho__imagem {
-    width: auto;
-    height: 46vh;
-
-}
-
 
 .conteudo {
-    width: auto;
-    height: auto;
+    width: 80%;
+    height: 30%;
     background-color: white;
-    margin: 7%;
     text-align: center; 
+    padding: 2% 0%;
+    margin: 3% 0% 3% 10%;
     
 }
 
