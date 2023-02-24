@@ -48,8 +48,7 @@ body {
     
 }
 
-.wrapper {
-   
+#wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -86,6 +85,7 @@ body {
     width: 100%;
 }
 
+
 .imagem__footer {
     display: inline-block;
     position: relative;
@@ -94,5 +94,8 @@ body {
 
 }
 
-
-
+.rodape__social {
+    display: inline-block;
+    padding: 0% 3%;
+    margin: 5% 0% 0% 18%;
+}
